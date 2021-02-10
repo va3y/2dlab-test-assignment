@@ -5,9 +5,12 @@
         meeting.meeting_name
       }}</v-expansion-panel-header>
       <v-expansion-panel-content>
-        <div class="d-flex">
+        <div class="d-md-flex">
           <MeetingInfo :meeting-data="meeting" />
-          <MeetingGraph class="ml-4" :meeting-attendance="meeting.attendance" />
+          <MeetingGraph
+            class="ml-md-4 mt-4 mt-md-0"
+            :meeting-attendance="meeting.attendance"
+          />
         </div>
       </v-expansion-panel-content>
     </v-expansion-panel>
