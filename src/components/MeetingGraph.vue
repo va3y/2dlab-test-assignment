@@ -2,8 +2,6 @@
   <v-card elevation="4" class="pa-md-4">
     <v-card-title>Пользователи встречи</v-card-title>
     <div class="">
-      <!-- <v-sparkline auto-draw smooth="5" :value="getValue" :labels="getLabels">
-      </v-sparkline> -->
       <LineChart max-width="800" :data="prepareData" />
     </div>
   </v-card>
@@ -22,16 +20,6 @@ export default {
     },
   },
   computed: {
-    getValue() {
-      return this.meetingAttendance.map((i) => {
-        return i.cnt_people;
-      });
-    },
-    getLabels() {
-      return this.meetingAttendance.map((i) => {
-        return i.time + "";
-      });
-    },
     prepareData() {
       const labels = this.meetingAttendance.map((el) => {
         return el.time;
