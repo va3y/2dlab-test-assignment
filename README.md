@@ -1,24 +1,5 @@
 # test-assigment
 
-## Project setup
-```
-npm install
-```
+### A simple interface, taking data from a JSON placeholder. Uses Vue 2, Vuetify, and Chart.js.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Deployed here: https://2dlab-test-assignment.valerih12.vercel.app/#/
